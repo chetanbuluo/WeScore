@@ -1,0 +1,7 @@
+@import "../../style/skin.wxss"; 
+@import "../../style/project/article_list.wxss"; 
+@import "../../style/client.wxss"; 
+
+.text-pic-list-box .item .data {
+	color:#BD9759!important;
+}

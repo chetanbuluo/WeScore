@@ -1,0 +1,25 @@
+
+<view class="main-admin"> 
+
+		<view class="form-box shadow"> 
+			<image class="loading" mode="widthFix" src="../../../images/demo.png" />
+		</view> 
+
+
+		<view class="form-box shadow"> 
+			<view class="hint-desc text-bold"><text class="icon-info text-orange margin-right-xxs"></text><text class="text-orange">注意事项</text></view> 
+			<view class="hint-desc">1. 请选择后缀名为xlsx的Excel文件导入</view> 
+			<view class="hint-desc">2. 每次导入数据不超过10000条</view>
+			<view class="hint-desc">3. 若某条数据之前已经导入过，则本次将不导入</view>
+			<view class="hint-desc">4. 若某学生本次有多条记录，则只导入第一条</view>
+			<view class="hint-desc">5. 格式错误或者缺项数据将不被导入</view>
+
+			<view class="hint-desc text-bold"><text class="icon-form margin-right-xxs"></text>数据格式：</view> 
+			<view class="hint-desc">
+			姓名 | 学号 | 成绩
+			</view> 
+
+		 
+			 
+		</view>
+</view>

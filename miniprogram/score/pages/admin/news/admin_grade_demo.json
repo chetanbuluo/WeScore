@@ -1,0 +1,10 @@
+{
+	"usingComponents": {
+		 
+	  },
+	"navigationBarBackgroundColor": "#ffffff",
+	"navigationBarTextStyle": "black", 
+	"enablePullDownRefresh": true, 
+	"backgroundTextStyle": "dark",
+	"navigationBarTitleText": "成绩数据Excel格式"
+  }

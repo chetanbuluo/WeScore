@@ -1,0 +1,16 @@
+@import "../../style/skin.wxss";
+@import "../../style/project/detail.wxss";
+@import "../../style/client.wxss";
+
+.query-my {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	height: 100rpx; 
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30rpx;
+	background-image: linear-gradient(45deg, #E6BA73, #BE9758);
+}

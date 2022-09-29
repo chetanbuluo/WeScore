@@ -1,0 +1,54 @@
+{
+	"pages": [
+		"score/pages/my/index/my_index",
+		"score/pages/register/reg_step1",
+		"score/pages/register/reg_step2",
+		"score/pages/register/reg_step3",
+		"score/pages/my/base/my_base",
+		"score/pages/my/reload/my_reload",
+		"score/pages/search/search",
+		"score/pages/admin/user/admin_user_list",
+		"score/pages/admin/user/admin_user_detail",
+		"score/pages/admin/index/admin_login",
+		"score/pages/admin/index/admin_home",
+		"score/pages/admin/news/admin_news_list",
+		"score/pages/admin/news/admin_news_add",
+		"score/pages/admin/news/admin_news_edit",
+		"score/pages/news/news_index",
+		"score/pages/news/news_detail",
+		"score/pages/admin/setup/admin_setup",
+		"score/pages/about/about",
+		"score/pages/about/hint",
+		"score/pages/admin/news/admin_grade_import",
+		"score/pages/admin/news/admin_grade_list",
+		"score/pages/news/grade_query",
+		"score/pages/admin/news/admin_grade_demo"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#000000",
+		"navigationBarTitleText": "CC通用成绩查询小程序",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"backgroundColor": "#fefefe",
+		"color": "#000",
+		"selectedColor": "#BD9759",
+		"list": [
+			{
+				"pagePath": "score/pages/news/news_index",
+				"text": "成绩查询",
+				"iconPath": "/score/images/tabbar/score.png",
+				"selectedIconPath": "/score/images/tabbar/score_cur.png"
+			},
+			{
+				"pagePath": "score/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/score/images/tabbar/my.png",
+				"selectedIconPath": "/score/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json"
+}

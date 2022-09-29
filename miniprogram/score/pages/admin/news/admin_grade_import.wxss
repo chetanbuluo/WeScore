@@ -1,0 +1,35 @@
+@import '../../../style/project/admin.wxss';
+.main-admin{
+	width:100%;
+	box-sizing: border-box;
+	padding:30rpx 20rpx;
+}
+ 
+
+.hint-desc{
+	line-height:70rpx;
+	color:#333!important;
+}
+
+.form-box .hint-desc {
+	color: #999;
+	padding: 0rpx 24rpx 12rpx 24rpx;
+	border-bottom: 1rpx solid #eee;
+}
+
+.form-box .hint-desc.error {
+	color: #e54d42;
+	font-size: 28rpx;
+}
+
+.form-box .hint-desc.error::before {
+	font-family: "icon";
+	font-size: 24rpx !important;
+	display: inline-block;
+	content: "\e659";
+	margin-right: 5rpx;
+}
+
+.form-box .hint-desc.error::before {
+	font-size: 32rpx;
+}

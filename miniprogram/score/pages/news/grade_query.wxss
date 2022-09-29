@@ -1,0 +1,8 @@
+@import "../../style/skin.wxss"; 
+@import "../../style/client.wxss"; 
+
+
+.btn.bg-skin1 {
+	color: #fff!important;
+	background-image: linear-gradient(45deg, #E6BA73, #BE9758);
+} 

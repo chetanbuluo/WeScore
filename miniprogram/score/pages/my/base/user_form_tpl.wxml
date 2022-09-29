@@ -1,0 +1,65 @@
+<template name="userForm">
+	<view class="form-box shadow">
+		<!-- base begin -->
+		<view class="form-group">
+			<view class="title ">*姓名</view>
+			<input placeholder="填写您的姓名" placeholder-class="phc" model:value="{{formName}}" maxlength="20"
+				focus="{{formNameFocus}}"></input>
+		</view> 
+
+		<view class="form-group">
+			<view class="title ">*性别</view>
+			<radio-group bindchange="model" data-item="formSex">
+				<label>
+					<radio value="1" checked="{{formSex==1?true:false}}" /> <text class=" margin-left-xs">男</text>
+				</label>
+				<label>
+					<radio value="2" class="margin-left-l" checked="{{formSex==2?true:false}}" /> <text
+						class="margin-left-xs">女</text>
+				</label>
+
+			</radio-group>
+		</view> 
+
+		<view class="form-group">
+			<view class="title">*生日</view>
+			<picker mode="date" start="1950-01-01" end="2012-12-30" model:value="{{formBirth}}">
+				<view class="picker">
+					{{formBirth || '年,月,日'}}
+				</view>
+			</picker>
+		</view> 
+ 
+ 
+	</view>
+	<!-- base end -->
+ 
+
+	<!-- link begin -->
+	<view class="form-box shadow">
+	 
+		<view class="form-group">
+			<view class="title">联系电话</view>
+			<input placeholder="请填写您的联系电话" placeholder-class="phc" model:value="{{formMobile}}" maxlength="50"
+				focus="{{formMobileFocus}}" />
+		</view>
+		<view class="form-group">
+			<view class="title">微信</view>
+			<input placeholder="请填写您的微信" placeholder-class="phc" model:value="{{formWechat}}" maxlength="50"
+				focus="{{formWechatFocus}}" />
+		</view>
+		<view class="form-group">
+			<view class="title">Email</view>
+			<input placeholder="请填写您的Email" placeholder-class="phc" model:value="{{formEmail}}" maxlength="50"
+				focus="{{formEmailFocus}}" />
+		</view>
+		<view class="form-group">
+			<view class="title">QQ号码</view>
+			<input placeholder="请填写您的QQ号码" placeholder-class="phc" model:value="{{formQq}}" maxlength="50"
+				focus="{{formQqFocus}}" />
+		</view>
+	</view>
+	<!-- link end --> 
+
+
+</template>

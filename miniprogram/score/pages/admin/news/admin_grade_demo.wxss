@@ -1,0 +1,9 @@
+@import "./admin_grade_import.wxss";
+.form-box{
+	width:100%;  
+	padding:15rpx 5rpx;
+}
+
+.form-box image{
+	width:98%;
+}

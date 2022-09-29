@@ -1,0 +1,61 @@
+@import '../../../style/project/admin.wxss';
+.main-admin .list { 
+    padding: 10rpx 0rpx 30rpx; 
+}
+
+.table {
+	border: 1px solid #fff;
+	width:100%;
+}
+
+.tr {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	line-height: 2.6;
+	align-items: center;
+}
+.header-data{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	padding:10rpx;
+}
+.td { 
+	font-size:24rpx;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding:8rpx;
+}
+
+.tdx{
+	font-size:28rpx!important;
+}
+ 
+.bg-x{
+	background-color: #f8f8f8;
+}
+
+.td.td1{
+	padding-left:4rpx;
+	width:10%;
+	font-size:20rpx;
+}
+
+.td.td2{ 
+	width:25%;
+}
+
+.td.td3{ 
+	width:25%;
+}
+
+.td.td4{ 
+	width:25%;
+}
+
+.td.td5{ 
+	width:15%;
+	font-size:20rpx;
+}

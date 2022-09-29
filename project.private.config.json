@@ -1,0 +1,145 @@
+{
+    "setting": {
+        "compileHotReLoad": true
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "1.0.0 首页",
+                    "pathName": "score/pages/index/index_home",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.0.0 个人中心",
+                    "pathName": "score/pages/my/index/my_index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.5.1 搜索",
+                    "pathName": "score/pages/search/search",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.0.1 个人中心-修改个人资料",
+                    "pathName": "score/pages/my/base/my_base",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.1.1 注册第一步",
+                    "pathName": "score/pages/register/reg_step1",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.1.2 注册第2步",
+                    "pathName": "score/pages/register/reg_step2",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.1.3 注册第3步",
+                    "pathName": "score/pages/register/reg_step3",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.7.1 成绩列表",
+                    "pathName": "score/pages/news/news_index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.7.2 成绩详情",
+                    "pathName": "score/pages/news/news_detail",
+                    "query": "id=cd045e75612b54ed088fa6393cb8c980",
+                    "scene": null
+                },
+                {
+                    "name": "1.7.2 成绩查询",
+                    "pathName": "score/pages/news/grade_query",
+                    "query": "id=cd045e75612b54ed088fa6393cb8c980",
+                    "scene": null
+                },
+                {
+                    "name": "1.99.0 关于我们",
+                    "pathName": "score/pages/about/about",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.1 后台管理-登录",
+                    "pathName": "score/pages/admin/index/admin_login",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.2 后台管理-首页",
+                    "pathName": "score/pages/admin/index/admin_home",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.4 后台管理-用户管理",
+                    "pathName": "score/pages/admin/user/admin_user_list",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.5 后台管理-用户详情",
+                    "pathName": "score/pages/admin/user/admin_user_detail",
+                    "query": "id=5",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.8 后台管理-成绩管理",
+                    "pathName": "score/pages/admin/news/admin_news_list",
+                    "query": "id=5",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.9 后台管理-成绩添加",
+                    "pathName": "score/pages/admin/news/admin_news_add",
+                    "query": "id=5",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.10 后台管理-成绩修改",
+                    "pathName": "score/pages/admin/news/admin_news_edit",
+                    "query": "id=d9ea4cfd5f993c7500268db23de85ed1",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.10 后台管理-成绩导入",
+                    "pathName": "score/pages/admin/news/admin_grade_import",
+                    "query": "id=d9ea4cfd5f993c7500268db23de85ed1",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.10 后台管理-成绩列表",
+                    "pathName": "score/pages/admin/news/admin_grade_list",
+                    "query": "id=d9ea4cfd5f993c7500268db23de85ed1",
+                    "scene": null
+                },
+                {
+                    "name": "1.7.2 成绩数据格式Demo",
+                    "pathName": "score/pages/admin/news/admin_grade_demo",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "1.8.11 后台管理-平台参数设置",
+                    "pathName": "score/pages/admin/setup/admin_setup",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "projectname": "PP%E9%80%9A%E7%94%A8%E6%88%90%E7%BB%A9%E6%9F%A5%E8%AF%A2%E5%B0%8F%E7%A8%8B%E5%BA%8F"
+}
