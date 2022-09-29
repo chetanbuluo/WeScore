@@ -143,14 +143,14 @@
  				if (err && err.errMsg && err.errMsg.includes('-501000') && err.errMsg.includes('Environment not found')) {
  					wx.showModal({
  						title: '',
- 						content: '云环境未创建或者未正确指定，请参考安装手册或者咨询官方',
+ 						content: '云环境未创建或者未正确指定，请参考安装手册或者咨询作者微信cclinux0730',
  						showCancel: false
  					});
 
  				} else if (err && err.errMsg && err.errMsg.includes('-501000') && err.errMsg.includes('FunctionName')) {
  					wx.showModal({
  						title: '',
- 						content: '云函数未创建或者未上传，请参考安装手册或者咨询官方',
+ 						content: '云环境未创建或者未正确指定，请参考安装手册或者咨询作者微信cclinux0730',
  						showCancel: false
  					});
 
